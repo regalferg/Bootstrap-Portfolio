@@ -1,0 +1,221 @@
+
+/*
+*{
+  border-style: solid;
+  border-color: green;
+  border-size: 1px;
+
+}*/
+
+body{
+background: url("../images/dark_bg.png");
+font-family: "Arial","Helvetica Neue","Helvetica","sans-serif";
+
+
+
+}
+
+
+
+.navbar-brand  {
+  background-color: #4aaaa5 !important;
+  color:white !important;
+  margin-left: 25px;
+  font-family: "Arial","Helvetica Neue","Helvetica","sans-serif";
+
+}
+
+
+.navbar-nav>li {             
+    float: left;
+}
+
+.bMargin{
+  margin-bottom: 100px !important; 
+}
+
+.page-header {
+
+  color:#4aaaa5 ;
+
+}
+
+
+h1{
+  font-weight: bold;
+  font-size: 32px;
+  text-align: left;
+
+
+}
+
+h3{
+  font-weight: bold;
+  font-size: 24px;
+  text-align: left;
+  color:#4aaaa5 ;
+
+}
+
+
+.mainOverflow{
+  overflow: auto;
+  
+}
+
+.content-wrap{
+  background-color: #ffffff ;
+/*    border-style: solid;
+  border-color: orange;
+  border-size: 1px*/
+  margin-left: 100px;
+  margin-right: 5%;
+  margin-bottom: 0px;
+
+
+}
+
+.panel{
+  float:right
+}
+.panel-heading{
+background-color: #ffffff;
+padding: 0 !important; 
+
+}
+
+.panel-title{
+ color: #4aaaa5;
+ background-color: white;
+     font-size: 18px;
+    line-height: 60px;
+
+
+}
+
+
+.navbar-fixed-bottom{
+border-top: 5px;
+border-color: #4aaaa5;
+border-style: solid;
+background-color: grey;
+
+
+}
+
+.navbar-text{
+    width: 100%;
+    text-align: center;
+    color: lightgrey  !important;
+
+
+
+}
+
+
+.sBtn{
+  background-color: #4aaaa5;
+  color: #ffffff;
+  float: left;
+}
+label{
+  float: left;
+}
+
+
+
+.thumbnail {
+    position: relative;
+}
+
+.caption {
+    position: absolute;
+    top: 70%;
+    left: 0;
+    width: 100%;
+    background-color: #4aaaa5;
+    color: #ffffff !important;
+}
+
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+    
+
+
+.newImgSize{
+  height: 50px;
+  width: 50px;
+  float: left;
+
+}
+.col-xs-4 {
+
+    width: 55px;
+    height: 50px;
+    padding:0px;
+
+}
+
+    .content-wrap {
+        width: 75%;
+        text-align: center;
+        display: inline-block;
+        float: left;
+        margin-top: 10px;
+        margin-left: 100px;
+       
+
+    }
+
+
+}
+
+@media only screen and (max-width: 640px) {
+    
+ul{
+    width: 100%;
+
+}
+li{
+  width: 30%;
+}
+    [class*="nav"] {
+        width: 100%;
+        text-align: center;
+        display: inline-block;
+
+    }
+  
+
+.newImgSize{
+  height: 50px;
+  width: 50px;
+  float: left;
+
+}
+.col-xs-4 {
+
+    width: 55px;
+    height: 50px;
+    padding:0px;
+
+}
+
+    .content-wrap {
+        width: 75%;
+        text-align: center;
+        display: inline-block;
+        float: left;
+        margin-top: 10px;
+        margin-left: 100px;
+       
+
+    }
+
+
+}
+
